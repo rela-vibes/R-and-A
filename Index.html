@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R AND A MUSIC LABEL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans min-h-screen flex flex-col">
+
+  <!-- NAVBAR -->
+  <nav class="bg-gradient-to-r from-yellow-800 via-yellow-600 to-yellow-400 p-4 flex justify-between items-center shadow-lg">
+    <span class="text-2xl font-extrabold text-black">R & A MUSIC LABEL</span>
+    <ul class="flex gap-5 font-semibold text-black">
+      <li><a href="#music" class="hover:underline">Music</a></li>
+      <li><a href="#events" class="hover:underline">Events</a></li>
+      <li><a href="#studio" class="hover:underline">Studio</a></li>
+      <li><a href="#team" class="hover:underline">Team</a></li>
+      <li><a href="#contact" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="text-center py-16 px-4 bg-gradient-to-br from-yellow-900/40 to-black">
+    <h1 class="text-5xl md:text-6xl font-extrabold text-yellow-300 mb-3">Feel the Vibes</h1>
+    <p class="text-lg text-gray-200 max-w-2xl mx-auto mb-7">Where music, passion, and talent meet. Creating legendary sounds and unforgettable events.</p>
+    <a href="#music" class="inline-block bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-yellow-300 transition">Explore Music</a>
+  </header>
+
+  <!-- MUSIC SECTION -->
+  <section id="music" class="py-12 px-4 bg-gray-900 flex-1">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6 text-center">Featured Tracks</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-800 rounded-lg p-6 shadow-lg text-center">
+        <h3 class="font-bold text-lg mb-2 text-yellow-300">Sunset Groove</h3>
+        <audio controls class="w-full mb-2">
+          <source src="#" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p class="text-gray-400 text-sm">by Ace Vibe</p>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-6 shadow-lg text-center">
+        <h3 class="font-bold text-lg mb-2 text-yellow-300">Afterparty</h3>
+        <audio controls class="w-full mb-2">
+          <source src="#" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p class="text-gray-400 text-sm">by Raya Blaze</p>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-6 shadow-lg text-center">
+        <h3 class="font-bold text-lg mb-2 text-yellow-300">Night Drive</h3>
+        <audio controls class="w-full mb-2">
+          <source src="#" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <p class="text-gray-400 text-sm">by Jay Flow</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS SECTION -->
+  <section id="events" class="py-12 px-4 bg-black">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6 text-center">Upcoming Events</h2>
+    <ul class="max-w-xl mx-auto text-center space-y-4">
+      <li class="bg-gray-800 rounded-md p-4 shadow">
+        <span class="text-yellow-300 font-semibold">June 20:</span> Studio Experience Day
+      </li>
+      <li class="bg-gray-800 rounded-md p-4 shadow">
+        <span class="text-yellow-300 font-semibold">July 15:</span> Summer Sound Fest
+      </li>
+      <li class="bg-gray-800 rounded-md p-4 shadow">
+        <span class="text-yellow-300 font-semibold">August 29:</span> R & A Grand Concert
+      </li>
+    </ul>
+  </section>
+
+  <!-- STUDIO SECTION -->
+  <section id="studio" class="py-12 px-4 bg-gray-900">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6 text-center">Our Studio</h2>
+    <div class="max-w-xl mx-auto text-center">
+      <p class="text-gray-300 mb-3">Experience world-class recording and production. Our studio is open to artists, producers, and creators looking to make their mark.</p>
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Studio" class="rounded-xl mx-auto mt-4 shadow-lg" />
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section id="team" class="py-12 px-4 bg-black">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6 text-center">Meet the Team</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <div class="bg-gray-800 rounded-lg p-6 w-60 shadow-lg text-center">
+        <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="Ace Vibe" class="mx-auto rounded-full w-20 h-20 mb-2 shadow">
+        <h4 class="font-bold mb-1 text-yellow-300">Ace Vibe</h4>
+        <p class="text-gray-400 text-xs">Lead Producer</p>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-6 w-60 shadow-lg text-center">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Raya Blaze" class="mx-auto rounded-full w-20 h-20 mb-2 shadow">
+        <h4 class="font-bold mb-1 text-yellow-300">Raya Blaze</h4>
+        <p class="text-gray-400 text-xs">Songwriter & Vocalist</p>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-6 w-60 shadow-lg text-center">
+        <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Jay Flow" class="mx-auto rounded-full w-20 h-20 mb-2 shadow">
+        <h4 class="font-bold mb-1 text-yellow-300">Jay Flow</h4>
+        <p class="text-gray-400 text-xs">Rapper</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-12 px-4 bg-gray-900">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6 text-center">Contact Us</h2>
+    <div class="max-w-xl mx-auto bg-gray-800 p-8 rounded-lg shadow text-center">
+      <p class="mb-3">WhatsApp: <a href="https://wa.me/2347045819956" class="text-yellow-400 underline font-semibold">07045819956</a></p>
+      <p>Email: <a href="mailto:randamusiclabel@email.com" class="text-yellow-400 underline">randamusiclabel@email.com</a></p>
+      <p class="text-xs text-gray-500 mt-6">We reply fast. Let's make music together!</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gradient-to-r from-yellow-800 via-yellow-600 to-yellow-400 text-black text-center p-4 text-sm font-bold mt-auto">
+    &copy; 2025 R & A MUSIC LABEL. All rights reserved.
+  </footer>
+</body>
+</html>
